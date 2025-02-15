@@ -20,6 +20,7 @@ public class SkillBuilder3 {
         for (int i = 1; i <= height; i++) {
             str += "*".repeat(i) + "\n";
         }
+        System.out.println("");
         return str;
     }
 
